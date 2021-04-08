@@ -1,0 +1,66 @@
+ body {
+     font-family: "Arial", sans-serif;
+ }
+ 
+ main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#etat_game{
+    align-items: center;
+    justify-content: center;
+    font-size:20px;
+    text-align:center;
+    width:400px;
+    display:none;
+    background-color: rgb(126, 126, 245);
+    border:3px solid rgb(65, 65, 233);
+    margin: 10px 0;
+    padding: 10px;
+}
+#replay{
+    width:70px;
+    background-color:#15a6fa;
+    color: white;
+    margin-left:10px;
+    padding: 8px 10px;
+    width: 80px;
+    text-decoration: none;
+}
+#replay:hover {
+    text-decoration: none;
+    color: white;
+}
+.ligne{
+    display:flex;
+}
+.button_cellule{
+    height:50px;
+    width:50px;
+    background-color:#7b7b7b;
+}
+.button_cellule_display{
+    font-weight: bold;
+    font-size:20px;
+    height:50px;
+    width:50px;
+}
+.button_mine{
+    height:50px;
+    width:50px;
+    background-image: url('./image/bomb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text-red{
+    color:red ;
+}
+.text-blue{
+    color:blue ;
+}
+.text-green{
+    color:green;
+}

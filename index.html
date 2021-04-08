@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demineur</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main>
+    <div class="size_zone" id="set">
+        <p>Paramètres de votre démineur :</p>
+        <div class="setting_bloc">
+            <span>Hauteur :</span>
+            <input type="number" value="10" min="3" name="height" id="height">
+        </div>
+        <div class="setting_bloc">
+            <span>Largeur :</span>
+            <input type="number" value="10" min="3" name="width" id="width">
+        </div>
+        <div class="setting_bloc">
+            <span>Nombre de mine :</span>
+            <input type="number" value="10" min="1" name="mines" id="mines">
+        </div>
+        <button id="setting">Lancer la partie</button>
+    </div>
+    <div id="etat_game"></div>
+    <div class="game_zone" id="table"></div> 
+</main>   
+<script src="./script.js"></script>
+</body>
+</html>
