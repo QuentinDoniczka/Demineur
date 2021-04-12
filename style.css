@@ -64,3 +64,48 @@
 .text-green{
     color:green;
 }
+/* CSS FORMULAIRE */
+.size_zone {
+    background: lightgrey;
+    padding: 50px;
+    border-radius: 20px;
+  }
+  .size_zone > p {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .setting_bloc {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .setting_bloc span{
+    margin-bottom: 5px;
+  }
+  .setting_bloc input {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+  }
+  .setting_bloc input:focus {
+    outline: none;
+  }
+  #setting {
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #74b9ff;
+    border: none;
+    cursor: pointer;
+  }
+  #setting:focus {
+    outline: none;
+  }
+  #setting:hover {
+    background: #00cec9;
+  }
